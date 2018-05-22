@@ -1,14 +1,11 @@
-# POOMAT Application For Web
+# EFT ( Emotion Free Technique) For Web
 ##### Contributor
 * Jisung Lee
-* Jacob Shin
-* HanBaek Lee
-* SungHun Choi
 
 ----
 
 ##### 개발 환경
-* PHP 7.0+
+* PHP 5.5+
 * Apache 2.4+
 * MySQL
 * Xampp 3.2.2+
@@ -16,19 +13,12 @@
 -----
 
 ##### Email Credential
-For Webmail Access : [Amazon WebMail](https://poomat.awsapps.com/mail)
+For Webmail Access : [Gmail](https://poomat.awsapps.com/mail)
 
-Email | Login Account | Password
------- | ------ | ------
-service@poomat.com | service | poomat11!
-order@poomat.com | order | poomat11!
-
-------
-### 5/3 Update목록 - by Jacob Shin
-1. 기존 각 Controller 에서 CheckAuth로 권한확인절차 삭제
-2. App Class 에서 Order, Account, Admin 콘트롤러를 요청시 권한확인절차 추가
-3. Account에 leftnav 추가 $data['leftnav'] = Load::getContents['account/leftnav']; 로 로드하면 자동으로 첨부됨
-4. Order 화면 업데이트 날짜선택/예약기능 추가필요
+Email | 
+------ |
+jisung772@gmail.com | 
+hyunmin.alex.lee@gmail.com | 
 
 ------
 ### 필요 개발 목록
